@@ -1,0 +1,51 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="Course Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/cname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/cdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Course Duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/cdur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/rem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:background="@drawable/buttonstyle"
+        android:layout_margin="5dp"
+        android:text="SUBMIT"
+        android:textColor="#EEF4F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bdbtn"
+        android:background="@drawable/buttonstyle"
+        android:text="BACK TO DASHBOARD"
+        android:textColor="#EEF4F4"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

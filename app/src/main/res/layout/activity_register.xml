@@ -1,0 +1,64 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/name"
+        android:drawableLeft="@drawable/name"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/rollno"
+        android:drawableLeft="@drawable/rollnumber"
+        android:hint="Enter Roll number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/address"
+        android:drawableLeft="@drawable/address"
+        android:hint="Enter Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/uname"
+        android:drawableLeft="@drawable/username"
+        android:hint="Enter Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/pass"
+        android:drawableLeft="@drawable/password"
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/cpass"
+        android:drawableLeft="@drawable/password"
+        android:hint="Confirm Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/regbtn"
+        android:background="@drawable/buttonstyle"
+        android:text="REGISTER"
+        android:textColor="#FCFDFD"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btlbtn"
+        android:background="@drawable/buttonstyle"
+        android:text="BACK TO LOGIN"
+        android:textColor="#FCFDFD"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:hint="Enter Username"
+        android:drawableLeft="@drawable/username"
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Enter password"
+        android:drawableLeft="@drawable/password"
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logbtn"
+        android:layout_margin="5dp"
+        android:text="LOGIN"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#F6FBFB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/regbtn"
+        android:layout_margin="5dp"
+        android:textColor="#F6FBFB"
+        android:text="REGISTER"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

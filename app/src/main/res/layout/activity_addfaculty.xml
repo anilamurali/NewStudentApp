@@ -1,0 +1,51 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="Faculty Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/dep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Mobile Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/mob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit1"
+        android:background="@drawable/buttonstyle"
+        android:layout_margin="5dp"
+        android:text="SUBMIT"
+        android:textColor="#EEF4F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bdbtn1"
+        android:background="@drawable/buttonstyle"
+        android:text="BACK TO DASHBOARD"
+        android:textColor="#EEF4F4"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
